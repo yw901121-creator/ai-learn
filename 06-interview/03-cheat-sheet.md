@@ -24,7 +24,7 @@ AI × 教育＝個人化 + 自動化 + 數據洞察；LLM + RAG + Agent；AI 加
 ## 上下文怎麼讓 AI「注意重點」
 1. 釘選規則（Pin）  
 2. 狀態卡（goal/constraints/progress）  
-3. RAG 叮放 Top 精煉證據  
+3. RAG 只放 Top 精煉證據  
 4. 關鍵指令放**開頭 + 結尾**  
 5. 舊輪次做 Compact，不要 20 輪全文硬塞
 
