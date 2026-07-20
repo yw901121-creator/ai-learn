@@ -1,6 +1,6 @@
 # 完整 AI 術語表（面試版）
 
-> 更新：2026-07-20  
+> 更新：2026-07-20（v1.1）  
 > 用法：先會「白話一句話」，再記英文。面試用白話，文件用英文。
 
 ---
@@ -10,7 +10,7 @@
 | 術語 | 白話 |
 |---|---|
 | **AI** | 讓機器表現出智能行為的技術總稱 |
-| **ML** | 機器從資料學規則，不必手寫所有規則 |
+| **ML** | 機器從資料學規律，不必手寫所有規則 |
 | **Deep Learning** | 用多層神經網路的機器學習 |
 | **Generative AI** | 能生成文字/圖/音/影/code 的 AI |
 | **Model** | 訓練好的「大腦」 |
@@ -78,6 +78,30 @@
 | **Human-in-the-loop** | 關鍵步驟有人審核 |
 | **Eval / Evaluation** | 系統化評測品質 |
 | **Observability** | 可觀察：日誌、追蹤、監控 |
+| **Agent Loop** | 感知→規劃→行動→觀察→反思的循環 |
+| **Harness** | 包住模型的執行框架（工具、權限、記憶、重試、日誌） |
+| **Skills** | 可重用、按需載入的專業能力包 / SOP 模組 |
+| **ReAct** | Reason + Act：邊想邊呼叫工具的經典模式 |
+
+---
+
+## D2. Context Engineering（超常考）
+
+| 術語 | 白話 |
+|---|---|
+| **Context Engineering** | 主動設計、排序、壓縮模型看得見的上下文 |
+| **Context Construction** | 組裝這一輪要給模型看的內容包 |
+| **Context Compact** | 把舊對話/長輸出濃縮成摘要或狀態卡 |
+| **Pinning** | 把關鍵規則釘在固定前綴，不被摘要蓋掉 |
+| **State Card** | 用結構化欄位記錄 goal/constraints/progress |
+| **Lost in the Middle** | 超長上下文的中段資訊容易被模型忽略 |
+| **Sliding Window** | 只保留最近 K 輪對話 |
+| **OCR** | 光學字元辨識：從圖片/掃描件抽出文字 |
+| **VLM** | Vision-Language Model，能看圖又懂文字的模型 |
+| **Chunking** | 把長文件切成可檢索小段 |
+| **Hybrid Search** | 關鍵字搜尋 + 向量搜尋併用 |
+| **Reranker** | 對檢索結果二次精排 |
+| **Grounding** | 讓回答對齊檢索到的來源，減少胡说 |
 
 ---
 
@@ -121,7 +145,7 @@
 ## G. 2026 模型與產品速記
 
 | 名字 | 你要知道 |
-|---|---|---|
+|---|---|
 | **GPT-5.6 Sol / Terra / Luna** | OpenAI 三層級：旗艦 / 均衡 / 便宜快 |
 | **Claude Fable 5** | Anthropic 旗艦長任務模型 |
 | **Claude Sonnet 5** | 主力生產型、寫 code / agent |
@@ -138,13 +162,20 @@
 
 ```
 大腦 = LLM
-知識 = RAG
+知識 = RAG（材料先檢索）
+眼睛 = OCR（圖變字）
 雙手 = Tools / MCP
 員工 = Agent
+節奏 = Agent Loop
+身體 = Harness
+技能包 = Skills
+書桌整理 = Context Engineering
+中段陷阱 = Lost in the Middle
 教室規則 = Guardrails
 老師 = Human-in-the-loop
 ```
 
 ---
 
+**進階課 →** [`../08-agent-context/01-agent-loop-harness-skills.md`](../08-agent-context/01-agent-loop-harness-skills.md)  
 **下一課 →** [`../06-interview/01-answer-scripts.md`](../06-interview/01-answer-scripts.md)
