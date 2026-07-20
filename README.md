@@ -88,5 +88,6 @@ ai-course/
 
 | 版本 | 日期 | 變更 |
 |---|---|---|
+| v1.2 | 2026-07-20 | 新增完整英文版 repo，並建立雙語同步規則 |
 | v1.1 | 2026-07-20 | 新增第 8 章：Agent Loop、Harness、Skills、Context Compact、Lost in the Middle、OCR+RAG |
 | v1.0 | 2026-07-20 | 初版：完整課程 + 當日新聞（GPT-5.6、Claude Fable 5、Kimi K3） |
