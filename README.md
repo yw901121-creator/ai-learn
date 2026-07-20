@@ -1,7 +1,7 @@
 # AI 面試與實務全能課程（EdTech 版）
 
 > 專為「線上教學平台 + AI」公司面試與入職準備設計  
-> 最後更新：**2026-07-20**｜版本：**v1.0**
+> 最後更新：**2026-07-20**｜版本：**v1.1**
 
 ---
 
@@ -13,12 +13,13 @@
 2. **LLM 核心概念** — Prompt、Token、Context、RAG、Fine-tuning
 3. **2026 熱門技術** — Agent、MCP、Multi-Agent、Computer Use
 4. **教育 AI 專題** — Adaptive Learning、Knowledge Tracing、AI Tutor
-5. **面試話術** — 30 秒 / 2 分鐘完整稿 + 追問應對
-6. **每日新聞更新** — 新模型、新術語、產業動態
+5. **Agent × Context 進階** — Agent Loop、Harness、Skills、Context Compact、Lost in the Middle、OCR+RAG
+6. **面試話術** — 30 秒 / 2 分鐘完整稿 + 追問應對
+7. **每日新聞更新** — 新模型、新術語、產業動態
 
 ---
 
-## 建議學習路徑（7 天衝刺）
+## 建議學習路徑（8 天衝刺）
 
 | 天 | 讀什麼 | 目標 |
 |---|---|---|
@@ -26,11 +27,12 @@
 | Day 2 | `02-llm-deep-dive` | 能解釋 LLM / RAG / Fine-tuning |
 | Day 3 | `03-agents-tools` | 能解釋 Agent / MCP / Tool Use |
 | Day 4 | `04-edtech-ai` | 能講教育 AI 五大場景 |
-| Day 5 | `05-glossary` | 背熟 50+ 關鍵術語 |
-| Day 6 | `06-interview` | 模擬面試，背稿 |
-| Day 7 | `07-news-updates` | 跟上最新動態，加分 |
+| Day 5 | `08-agent-context` | 能講 Loop / Harness / Context Engineering |
+| Day 6 | `05-glossary` | 背熟 60+ 關鍵術語 |
+| Day 7 | `06-interview` | 模擬面試，背稿 |
+| Day 8 | `07-news-updates` | 跟上最新動態，加分 |
 
-每天約 **45–90 分鐘**。面試前至少完成 Day 1–6。
+每天約 **45–90 分鐘**。面試前至少完成 Day 1–7。
 
 ---
 
@@ -47,7 +49,8 @@ ai-course/
 ├── 04-edtech-ai/             ← 線上教學 AI
 ├── 05-glossary/              ← 完整術語表
 ├── 06-interview/             ← 面試稿與模擬題
-└── 07-news-updates/          ← 每日 / 每週新聞更新
+├── 07-news-updates/          ← 每日 / 每週新聞更新
+└── 08-agent-context/         ← Agent Loop / Context / OCR+RAG
 ```
 
 ---
@@ -85,4 +88,5 @@ ai-course/
 
 | 版本 | 日期 | 變更 |
 |---|---|---|
+| v1.1 | 2026-07-20 | 新增第 8 章：Agent Loop、Harness、Skills、Context Compact、Lost in the Middle、OCR+RAG |
 | v1.0 | 2026-07-20 | 初版：完整課程 + 當日新聞（GPT-5.6、Claude Fable 5、Kimi K3） |
